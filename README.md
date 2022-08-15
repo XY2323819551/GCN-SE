@@ -3,7 +3,6 @@
 GCN-SE项目包含两个任务：① 分类任务（对应MRPC & SICK-E数据集）；②回归任务（对应STS-B & SICK-R数据集）。该实验基于上述任务进行，分别对应原始模型和添加了GCN模块的模型进行实验验证，最终在MRPC、SICK-E、SICK-R、STS-B共4个下游任务上相比baseline分别约平均提升了**1%**、**3%**、**4%**、**10%**。其中base模型的结果就可以超越baseline中的 large模型。实验所需数据在[这里]()
 
 ### Requirements
-
 需要安装的packages以及对应的版本，`python>=3.6`、`conda install pytorch==1.4.0`
 ```
 transformers==4.6.0
