@@ -11,12 +11,12 @@ transformers==4.6.0
 scipy==1.5.2
 sklearn
 ```
-
 ### run
 
 **运行的命令train**
 
 ```
+
 python main-gcn.py \
 	--do_train \
 	--task_name choose one task from['MRPC','SICK-E','SICK-R','STS-B'] \
@@ -31,8 +31,6 @@ python main-gcn.py \
 	--device cuda:1 or cuda:0(only one GPU)
 	--outdir Path to trained models
 ```
-
-
 
 **基于bert-based的分类模型（MRPC、SICK-E）**
 
